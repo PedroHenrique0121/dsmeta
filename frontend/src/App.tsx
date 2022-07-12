@@ -1,12 +1,17 @@
+import NotiFicationButton from "./componentes/NotficationButoon"
 
 
 function App() {
 
 
   return (
+    <>
+    
     <h1 className="App">
-      Fala Dev
+    gfseg
     </h1>
+    <NotiFicationButton></NotiFicationButton>
+    </>
   )
 }
 
