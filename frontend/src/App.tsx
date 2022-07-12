@@ -1,4 +1,6 @@
+import Header from "./componentes/Header"
 import NotiFicationButton from "./componentes/NotficationButoon"
+import SalesCard from "./componentes/SalesCard"
 
 
 function App() {
@@ -6,11 +8,18 @@ function App() {
 
   return (
     <>
-    
-    <h1 className="App">
-    gfseg
-    </h1>
-    <NotiFicationButton></NotiFicationButton>
+
+
+      <Header></Header>
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+
+            <SalesCard></SalesCard>
+          </div>
+        </section>
+      </main>
+
     </>
   )
 }
