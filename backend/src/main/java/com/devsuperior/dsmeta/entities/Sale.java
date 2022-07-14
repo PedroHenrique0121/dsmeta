@@ -24,7 +24,7 @@ public class Sale {
     private Integer deals;
     private Double amount;
 
-    @JsonFormat(pattern = "dd/MM/yyyy")
+
     private LocalDate date;
 
 
